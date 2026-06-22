@@ -122,7 +122,8 @@ def _head(title, description, slug, crumbs, schema_extra):
 def _header(active):
     links = ""
     for label, href, key in NAV:
-        links += f'<a href="{href}">{label}</a>'
+        cur = ' aria-current="page"' if (key and key == active) else ''
+        links += f'<a href="{href}"{cur}>{label}</a>'
     return f'''
 <div class="util" id="top">
   <div class="wrap util__row">
@@ -211,7 +212,12 @@ def _footer():
   </div>
   <div class="wrap footer__bar">
     <span>\u00a9 <span id="year">2026</span> Square Lake Family Dentistry. All rights reserved.</span>
-    <span>New patients of all ages welcome.</span>
+    <nav class="footer__legal" aria-label="Legal">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Use</a>
+      <a href="accessibility.html">Accessibility</a>
+      <a href="notice-of-privacy-practices.html">Notice of Privacy Practices</a>
+    </nav>
   </div>
 </footer>
 <a class="mobile-call" href="tel:{PHONE_TEL}" aria-label="Call Square Lake Family Dentistry">{PHONE_ICON}</a>

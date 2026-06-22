@@ -287,9 +287,9 @@ PAGES = [
       <div class="contact__block">
         <h3>Office hours</h3>
         <table class="hours">
-          <tr><th>Mon \u2013 Thu</th><td>8:00 AM \u2013 5:00 PM</td></tr>
-          <tr><th>Friday</th><td>8:00 AM \u2013 1:00 PM</td></tr>
-          <tr><th>Sat \u2013 Sun</th><td>Closed</td></tr>
+          <tr><th scope="row">Mon \u2013 Thu</th><td>8:00 AM \u2013 5:00 PM</td></tr>
+          <tr><th scope="row">Friday</th><td>8:00 AM \u2013 1:00 PM</td></tr>
+          <tr><th scope="row">Sat \u2013 Sun</th><td>Closed</td></tr>
         </table>
       </div>
       <div class="contact__map">

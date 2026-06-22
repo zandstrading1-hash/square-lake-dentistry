@@ -9,8 +9,9 @@ from buildlib import write_all, SITE
 import content_core
 import content_services
 import content_blog
+import content_legal
 
-ALL_PAGES = content_core.PAGES + content_services.PAGES + content_blog.PAGES
+ALL_PAGES = content_core.PAGES + content_services.PAGES + content_blog.PAGES + content_legal.PAGES
 
 
 def write_sitemap():
