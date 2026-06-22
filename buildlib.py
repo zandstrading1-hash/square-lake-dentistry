@@ -25,7 +25,7 @@ SERVICES = [
     ("general-dentistry.html", "General &amp; preventive", "Cleanings, exams, X\u2011rays and early detection."),
     ("childrens-dentistry.html", "Children's dentistry", "Gentle, friendly care from the very first visit."),
     ("emergency-dentistry.html", "Emergency dentistry", "Same\u2011day relief for pain, swelling and breaks."),
-    ("cosmetic-dentistry.html", "Cosmetic dentistry", "Whitening, veneers and Invisalign."),
+    ("cosmetic-dentistry.html", "Cosmetic dentistry", "Whitening, veneers and clear aligners."),
     ("restorative-dentistry.html", "Restorative dentistry", "Fillings, crowns and bridges that last."),
     ("dental-implants.html", "Dental implants", "Permanent, natural\u2011feeling tooth replacement."),
     ("dentures.html", "Dentures &amp; repairs", "Comfortable dentures and fast repairs."),
@@ -183,7 +183,7 @@ def _footer():
         <span class="brand__mark" aria-hidden="true">{BRAND_MARK_FOOT}</span>
         <span class="brand__text"><span class="brand__name">Square Lake</span><span class="brand__sub">Family Dentistry</span></span>
       </span>
-      <p class="footer__tag">A family\u2011owned dental home in Troy, Michigan \u2014 comprehensive, comfortable care for every age.</p>
+      <p class="footer__tag">A locally owned dental home in Troy, Michigan \u2014 comprehensive, comfortable care for every age.</p>
       <div class="footer__social">
         <a href="https://www.facebook.com/SquareLakeFam/" target="_blank" rel="noopener">Facebook</a>
         <a href="https://www.instagram.com/dentist9983__dr._saif_hanna/" target="_blank" rel="noopener">Instagram</a>
@@ -197,7 +197,7 @@ def _footer():
       <h4>Practice</h4>
       <a href="about.html">About us</a>
       <a href="new-patients.html">New patients</a>
-      <a href="insurance.html">Insurance &amp; financing</a>
+      <a href="insurance.html">Insurance</a>
       <a href="reviews.html">Reviews</a>
       <a href="faq.html">FAQs</a>
       <a href="blog.html">Blog</a>

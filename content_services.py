@@ -38,7 +38,7 @@ PAGES = [
     dict(
         slug="general-dentistry.html", active="services",
         title="General & Preventive Dentistry in Troy, MI | Square Lake Family Dentistry",
-        description="Routine cleanings, exams, digital X-rays, sealants and oral cancer screenings in Troy, MI. Preventive dental care for the whole family at Square Lake Family Dentistry.",
+        description="Routine cleanings, exams, X-rays, sealants and oral cancer screenings in Troy, MI. Preventive dental care for the whole family at Square Lake Family Dentistry.",
         cta_title="Due for a checkup?",
         cta_sub="A six-month cleaning and exam is the easiest way to keep small problems small. Call to book.",
         banner=dict(eyebrow="General &amp; preventive", h1="Preventive dentistry that keeps smiles healthy",
@@ -50,7 +50,7 @@ PAGES = [
 <ul class="check-list cols-2">
   <li>Professional cleaning to remove plaque and tartar</li>
   <li>Comprehensive dental exam</li>
-  <li>Low-radiation digital X-rays</li>
+  <li>X-rays as needed</li>
   <li>Oral cancer screening</li>
   <li>Gum (periodontal) health check</li>
   <li>Fluoride treatment when helpful</li>
@@ -62,7 +62,7 @@ PAGES = [
 <h2>What to expect</h2>
 <ol class="steps">
   <li><strong>Welcome &amp; history</strong><span>We review your health history and any concerns you'd like to discuss.</span></li>
-  <li><strong>Exam &amp; imaging</strong><span>A careful look at your teeth and gums, with digital X-rays as needed.</span></li>
+  <li><strong>Exam &amp; imaging</strong><span>A careful look at your teeth and gums, with X-rays as needed.</span></li>
   <li><strong>Cleaning</strong><span>A gentle, thorough cleaning and polish from your hygienist.</span></li>
   <li><strong>Plan &amp; next steps</strong><span>We explain what we found and agree on a plan \u2014 with estimates up front.</span></li>
 </ol>
@@ -145,8 +145,8 @@ PAGES = [
     # 4. Cosmetic
     dict(
         slug="cosmetic-dentistry.html", active="services",
-        title="Cosmetic Dentist in Troy, MI | Whitening, Veneers, Invisalign | Square Lake",
-        description="Brighten and reshape your smile with cosmetic dentistry in Troy, MI \u2014 teeth whitening, porcelain veneers, bonding and Invisalign for natural-looking results.",
+        title="Cosmetic Dentist in Troy, MI | Whitening, Veneers, Clear Aligners | Square Lake",
+        description="Brighten and reshape your smile with cosmetic dentistry in Troy, MI \u2014 teeth whitening, porcelain veneers, bonding and clear aligners for natural-looking results.",
         cta_title="Love your smile again",
         cta_sub="Ask about a cosmetic consultation. Call our Troy office to get started.",
         banner=dict(eyebrow="Cosmetic dentistry", h1="A brighter, more confident smile",
@@ -160,7 +160,7 @@ PAGES = [
   <li>Porcelain veneers</li>
   <li>Cosmetic bonding</li>
   <li>Tooth reshaping &amp; contouring</li>
-  <li>Invisalign &amp; clear aligners</li>
+  <li>Clear aligner options</li>
   <li>Complete smile makeovers</li>
 </ul>
 <h2>Natural-looking, made for you</h2>
@@ -226,7 +226,7 @@ PAGES = [
 </ul>
 <h2>The implant process</h2>
 <ol class="steps">
-  <li><strong>Consultation &amp; imaging</strong><span>We assess your bone and plan the placement using 3D imaging.</span></li>
+  <li><strong>Consultation &amp; imaging</strong><span>We assess your bone and plan the placement using detailed imaging.</span></li>
   <li><strong>Implant placement</strong><span>The post is gently placed into the jaw under local anesthetic.</span></li>
   <li><strong>Healing</strong><span>The implant fuses with the bone over a few months for a stable foundation.</span></li>
   <li><strong>Your new tooth</strong><span>We attach a custom crown that matches your smile.</span></li>
@@ -303,7 +303,7 @@ PAGES = [
   <li>Personalized home-care plan</li>
   <li>Monitoring to keep gums stable</li>
 </ul>
-<p>We offer complimentary periodontal evaluations for patients who are concerned about their gum health \u2014 please ask when you call.</p>
+<p>If you're concerned about your gum health, give us a call \u2014 we'll be glad to take a look and talk through the right next steps for you.</p>
 '''),
         related_excl={"gum-disease-treatment.html"},
     ),
