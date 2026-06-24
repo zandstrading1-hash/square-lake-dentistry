@@ -1,13 +1,41 @@
-# OS / editor
+# OS / editor / sync litter
 .DS_Store
 Thumbs.db
+desktop.ini
 *.swp
 .vscode/
 .idea/
 
-# Build / deps (none yet, but future-proofing)
-node_modules/
-dist/
+# Secrets — never commit (this project has none; keep it that way)
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+id_rsa*
+*.sqlite
+*.db
 
+# Python caches / virtual envs (recreate per device — see .claude-handoff/COMMANDS.md)
 __pycache__/
 *.pyc
+*.pyo
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# JS deps / build output (none used today; future-proofing)
+# NOTE: trailing slashes so these match directories only, never build.py / dist.py
+node_modules/
+dist/
+build/
+.next/
+.turbo/
+
+# Logs
+logs/
+*.log
