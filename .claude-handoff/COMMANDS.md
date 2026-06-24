@@ -1,15 +1,20 @@
 # COMMANDS
 
-## First command on a new device (RECOMMENDED: git via GitHub)
-Clone the repo from GitHub. **This is the multi-device sync mechanism** — do not rely on
-Drive-syncing the `.git` folder. Clone OUTSIDE Google Drive / OneDrive (e.g. `C:\dev\` or `~/dev/`):
+## First action on a new device (this project syncs via Google Drive)
+This project lives in Google Drive: `My Drive/Projects/square-lake-dentistry`. To work on a new device:
+1. Install **Google Drive for Desktop**, sign in with the same Google account, let it sync.
+2. Right-click the folder → **Offline access → Available offline** (so git works and files are local).
+3. Install **git** and sign in to GitHub once (needed to publish).
+4. Open the folder and edit. Read `OPEN-ME-FIRST.md` first for the golden rules.
+
+Publish changes to the live site:
+```bash
+git add -A && git commit -m "what changed" && git push
+```
+Recovery (if Drive ever corrupts the local copy) — re-clone from GitHub:
 ```bash
 git clone https://github.com/zandstrading1-hash/square-lake-dentistry.git
-cd square-lake-dentistry
 ```
-- Start each session with: `git pull`
-- After changes:           `git add -A && git commit -m "what changed" && git push`
-- Pushing to `main` auto-republishes the live site.
 
 ## Dependencies / install
 - **Nothing to install.** The website has no runtime dependencies.

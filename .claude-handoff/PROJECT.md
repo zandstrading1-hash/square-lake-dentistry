@@ -12,6 +12,8 @@ dependencies** — deployed on **GitHub Pages**.
 - **Live site:** https://zandstrading1-hash.github.io/square-lake-dentistry/
 - **GitHub repo:** https://github.com/zandstrading1-hash/square-lake-dentistry (public)
 - **Default branch:** `main`
+- **Lives in:** Google Drive — `My Drive/Projects/square-lake-dentistry`, synced across the owner's
+  devices (see `OPEN-ME-FIRST.md`). GitHub is the publisher + backup.
 - **Booking model:** phone-first — every primary CTA is "Call to book" → tel:(248) 558-2785.
   No online booking. The Contact page has an optional non-urgent message form only.
 

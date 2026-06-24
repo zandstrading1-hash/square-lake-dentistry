@@ -15,6 +15,9 @@
   practice's own public listings: star rating / `aggregateRating`, "25+ years", sedation / technology /
   financing claims, named insurers, and the brand name "Invisalign" → "clear aligners". Added 6 real,
   attributed Google reviews for Dr. Hanna. Rationale: do not publish unverifiable medical/credential claims.
-- **Multi-device strategy = git/GitHub, NOT Drive-syncing the repo.** Syncing a live `.git` folder
-  through a file-syncer (Google Drive / OneDrive) can corrupt it; `git pull`/`push` is the safe,
-  conflict-aware sync. See `../.gdrive-ignore-notes.md`.
+- **Multi-device strategy = whole project in Google Drive** (`My Drive/Projects/square-lake-dentistry`),
+  synced across devices; GitHub is the publisher + backup. Chosen by the owner for a single-folder,
+  edit-anywhere workflow (work from PC or laptop, whichever is at hand). Accepted trade-off: a
+  file-syncer can corrupt a live `.git` folder if two devices write at once — so the rule is
+  single-writer-at-a-time, let Drive settle before switching devices, and push to GitHub often.
+  See `../OPEN-ME-FIRST.md` and `../.gdrive-ignore-notes.md`.
